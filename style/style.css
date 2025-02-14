@@ -77,8 +77,12 @@ h3 {
   margin: 10px;
   /* width: 200px; */
   /* height: 100px; */
+  transition: all 0.3s;
 }
 
+.btn:hover {
+  background-color: rgb(15, 23, 58);
+}
 .btn-parent {
   text-align: center;
 
