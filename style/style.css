@@ -1,12 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+  /* margin: 50px;
+  padding: 50px; */
+  /* background-color: rgb(143, 176, 141); */
 }
+body {
+  /* background-color: rgb(143, 176, 141); */
+  /* background-image: linear-gradient(
+    to right,
+    rgb(186, 34, 203),
+    rgb(132, 137, 132)
+  ); */
+  background-image: url("../assets/animated.bg.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* background-size: 100% 100%; */
+}
+
 h2 {
   color: red;
 }
 h3 {
+  font-family: "Roboto", serif;
   color: blue;
+  /* margin: 600px 25px auto; */
+  /* margin: 650px 25px auto; */
+  /* margin: 700px 25px auto; */
+  margin: 1000px 25px auto;
+  /* margin-top: 20px; */
   /* font-weight: bolder; */
   /* font-size: 1.5em; */
   /* font-family: Arial, sans-serif; */
@@ -20,16 +45,43 @@ h3 {
 #container {
   /* background-color: rgb(red, green, blue);
   height: 500px; */
-  background-color: rgb(143, 176, 141);
+  /* background-color: rgb(143, 176, 141); */
   /* height: 280px; */
-  height: 600px;
-  padding: 300px 300px;
+  /* height: 600px; */
+  /* padding: 300px 300px; */
+  /* padding: 100px 0px; */
   text-align: center;
-  width: 600px;
+
+  /* width: 600px; */
+  max-width: 1000px;
   /* align-items: center; */
   /* margin-left: auto;
   margin-right: auto; */
   /* margin: 100px auto; */
   margin: auto;
+  /* justify-content: center; */
+}
+
+.btn {
+  font-family: "Gamja Flower", serif;
+  /* background-color: red; */
+  background-color: rgb(220, 29, 166);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  /* border: rounded; */
+  border-style: solid;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 10px;
+  /* width: 200px; */
+  /* height: 100px; */
+}
+
+.btn-parent {
+  text-align: center;
+
+  /* display: flex; */
   /* justify-content: center; */
 }
